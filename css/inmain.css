@@ -1,0 +1,450 @@
+/*-----обнуление----------------*/
+*,
+*:before,
+*:after {
+
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  box-sizing: inherit;
+  font-size: inherit;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+  height: 20px;
+  margin: 28px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 14px;
+  color: #000;
+  font-family: Hind Siliguri;
+  font-weight: 500;
+  width: 100%;
+}
+
+input {
+  outline: none;
+}
+
+
+li {
+  list-style: none;
+}
+
+/*-----обнуление--------------------------------*/
+.wrapper {
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+.nav {
+  padding: 20px;
+  font-size: 24px;
+}
+
+._logo {
+  letter-spacing: 1px;
+  margin-left: 300px;
+  line-height: 3rem;
+}
+
+.OnFoot {
+  margin-left: 30px;
+}
+
+._list {
+  display: flex;
+  position: absolute;
+  top: 30px;
+  margin-left: 300px;
+}
+
+._nbr1,
+._nbr2,
+._nbr3 {
+  padding-right: 30px;
+}
+
+.main_container {
+  margin-top: 80px;
+}
+
+._titleH1 {
+  font-size: 50px;
+  line-height: 5rem;
+  letter-spacing: 4px;
+}
+
+._Foot {
+  margin-left: 65px;
+}
+
+._MCont {
+  padding: 30px 5px;
+  font-size: 20px;
+  line-height: 5rem;
+  letter-spacing: 1px;
+  display: grid;
+  justify-items: center;
+}
+
+._titleH2 {
+  line-height: 76px;
+  margin: -20px 0px 0px 0px;
+}
+
+._HeadCont {
+  padding: 30px 0px;
+}
+
+/*---------btn-holder----------*/
+._btn {
+  margin: -30px 0px 0px 0px;
+  z-index: 1;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::before,
+::after {
+  position: absolute;
+  content: "";
+  z-index: -2;
+}
+
+.btn-holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 10px auto 35px;
+}
+
+.btn {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin: 0px 25px 15px;
+  min-width: 150px;
+}
+
+.btn span {
+  position: relative;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 20px;
+  transition: 0.3s;
+  z-index: 3;
+}
+
+/*--- btn-3 ---*/
+.btn-3 {
+  padding: 5px;
+}
+
+.btn-3 span {
+  color: rgb(255, 255, 255);
+  background-color: #7a0c0c;
+}
+
+.btn-3::before,
+.btn-3::after {
+  background: transparent;
+  z-index: 2;
+}
+
+/* 12. hover-border-2 */
+.btn.hover-border-2::before,
+.btn.hover-border-2::after {
+  width: 10%;
+  height: 25%;
+  transition: 0.35s;
+}
+
+.btn.hover-border-2::before {
+  bottom: 0;
+  left: 0;
+  border-left: 1px solid #7a0c0c;
+  border-bottom: 1px solid #7a0c0c;
+}
+
+.btn.hover-border-2::after {
+  top: 0;
+  right: 0;
+  border-right: 1px solid #7a0c0c;
+  border-top: 1px solid #7a0c0c;
+}
+
+.btn.hover-border-2:hover::before,
+.btn.hover-border-2:hover::after {
+  width: 99%;
+  height: 99%;
+}
+
+/*--------btn-holder-------------*/
+
+/*-----------slayder--------------*/
+.slaider_img {
+  display: flex;
+}
+
+._img {
+  max-height: 700px;
+  border-radius: 20%;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  11.11% {
+    opacity: 1;
+  }
+
+  33.33% {
+    opacity: 1;
+  }
+
+  44.44% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.fadein {
+  display: flex;
+  position: relative;
+  width: 100%;
+  padding: 50px 0px;
+  left: 12%;
+  height: 700px;
+  z-index: 2;
+}
+
+
+.fadein img {
+  position: absolute;
+  width: 50%;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  animation-name: fade;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  height: 600px;
+}
+
+.fadein img:nth-child(1) {
+  animation-delay: 0.5s;
+}
+
+.fadein img:nth-child(2) {
+  animation-delay: 10s;
+}
+
+.fadein img:nth-child(3) {
+  animation-delay: 15s;
+}
+
+.fadein img:nth-child(4) {
+  animation-delay: 20s;
+}
+
+.fadein img:nth-child(5) {
+  animation-delay: 25s;
+}
+
+/*--------slayder---------------*/
+
+/*-----------reason_header------------*/
+._AboutOur {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 0px;
+  font-weight: 600;
+}
+
+._description {
+  font-size: 25px;
+  width: 90%;
+  margin: auto;
+  line-height: 3rem;
+  text-align: center;
+}
+
+._IMG {
+  height: 140px;
+}
+
+/*-----------reason_header------------*/
+
+/*-----------dance__direction------------*/
+._Description {
+  font-size: 25px;
+  width: 90%;
+  margin: auto;
+  line-height: 3rem;
+  text-align: center;
+}
+
+._header {
+  font-size: 50px;
+  padding-top: 80px;
+}
+
+.container,
+.container2,
+.container3,
+.container4 {
+  padding-top: 80px;
+  display: flex;
+}
+
+._HeaderNav {
+  font-size: 35px;
+  padding: 20px;
+}
+
+._text {
+  font-size: 25px;
+  padding: 25px;
+}
+
+.video {
+  border-radius: 10px;
+}
+
+/*-----------dance__direction------------*/
+
+/*----timetable---------*/
+.timetable {
+  font-size: 25px;
+  width: 90%;
+  margin: auto;
+  line-height: 3rem;
+  text-align: center;
+}
+
+._TimeH {
+  font-size: 50px;
+  padding-top: 80px;
+}
+
+.timetable_text {
+  font-size: 30px;
+  padding: 30px 0px 30px;
+}
+
+._TimButton {
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 250px;
+  background-color: #7a0c0c;
+  color: #fff;
+}
+
+/*----timetable---------*/
+
+/*----info---------*/
+.info {
+  font-size: 25px;
+  width: 90%;
+  margin: auto;
+  line-height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+._wrapper {
+  width: 500px;
+}
+
+._svg {
+  height: 40px;
+  display: flex;
+}
+
+._map {
+  margin-left: 200px;
+  width: 600px;
+  height: 350px;
+  border-radius: 10px;
+}
+
+/*----info---------*/
+/*----footer---------*/
+.footer {
+  font-size: 25px;
+  width: 90%;
+  margin: auto;
+  line-height: 3rem;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+._devel {
+  font-size: 20px;
+  margin-left: -25px;
+}
+
+.devel_text {
+  text-decoration: underline;
+  text-decoration-color: red;
+  text-underline-offset: 6px;
+}
+
+/*----footer---------*/

@@ -1,0 +1,26 @@
+@media (max-width: 375px) {
+
+  .fadein img {
+    width: 60%;
+  }
+}
+
+@media (max-width: 375px) {
+  ._titleH2 {
+    padding-left: 10px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375px) {
+  ._HeadCont {
+    margin-left: -30px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 340px) {
+  ._wrapper {
+    font-size: 16px;
+  }
+}

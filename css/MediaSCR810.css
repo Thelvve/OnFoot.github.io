@@ -1,0 +1,169 @@
+@media (max-width: 834px) {
+
+  .arrow {
+    display: block;
+    right: 0px;
+  }
+}
+
+@media (max-width: 834px) {
+
+  .arrow a {
+    margin-right: 7px;
+  }
+}
+
+@media (max-width: 834px) {
+
+  .nav {
+    display: none;
+  }
+}
+
+@media (max-width: 834px) {
+
+  ._MCont,
+  ._description,
+  ._text,
+  ._wrapper {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 834px) {
+
+  ._titleH1,
+  ._AboutOur,
+  ._header,
+  ._TimeH {
+    font-size: 35px;
+    line-height: 3rem;
+  }
+}
+
+
+@media (max-width: 834px) {
+
+  ._description {
+    text-align: left;
+  }
+}
+
+@media (max-width: 834px) {
+
+  ._HeadCont {
+    padding: 20px 0px;
+  }
+}
+
+@media (max-width: 834px) {
+  ._Foot {
+    margin-left: 40px;
+  }
+}
+
+@media (max-width: 834px) {
+
+  .btn span {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 834px) {
+
+  .fadein img {
+    height: 400px;
+    width: 70%;
+    left: -45px;
+  }
+}
+
+@media (max-width: 834px) {
+
+  .fadein {
+    height: 550px;
+  }
+}
+
+@media (max-width: 834px) {
+
+  ._HeaderNav {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 834px) {
+
+  .container,
+  .container2,
+  .container3,
+  .container4 {
+    display: block;
+    padding: 20px 0px;
+  }
+}
+
+@media (max-width: 834px) {
+
+  .video {
+    display: block;
+    padding-top: 20px;
+    height: 300px;
+    z-index: 2;
+    position: sticky;
+  }
+}
+
+
+@media (max-width: 834px) {
+
+  .info {
+    display: block;
+    padding-top: 20px;
+  }
+}
+
+@media (max-width: 834px) {
+
+  ._TimeH {
+    padding: 20px 0px;
+  }
+}
+
+@media (max-width: 834px) {
+
+  .timetable_text {
+    padding: 0px 0px 30px;
+  }
+}
+
+@media (max-width: 834px) {
+
+  .video {
+    width: 100%;
+  }
+}
+
+@media (max-width: 834px) {
+
+  ._wrapper {
+    height: 270px;
+  }
+}
+
+@media (max-width: 834px) {
+
+  ._map {
+    margin: 0 auto;
+    width: 100%;
+    z-index: 2;
+    position: sticky;
+  }
+}
+
+@media (max-width: 834px) {
+
+  .footer {
+    padding: 0px;
+  }
+}
