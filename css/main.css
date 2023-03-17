@@ -87,7 +87,6 @@ li {
 ._logo {
   font-size: 22px;
   display: flex;
-  margin: 40px 10px;
   letter-spacing: 0.5rem;
   font-family: 'Times New Roman', Times, serif;
   z-index: 3;
