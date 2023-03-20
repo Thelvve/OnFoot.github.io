@@ -274,7 +274,7 @@ li {
 /*--------btn-holder-------------*/
 /*-----Reason--------------------------------*/
 .About {
-  margin: 10px 50px 600px 100px;
+  margin: 10px 50px 0px 100px;
   padding-bottom: 40px;
   text-align: center;
 }
@@ -572,8 +572,6 @@ button {
 
 ._wrapper {
   margin: 10px 10px 10px 300px;
-  width: 400px;
-  padding: 200px 0px 0px 0px;
 }
 
 ._contact {

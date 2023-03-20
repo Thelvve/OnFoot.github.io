@@ -403,9 +403,6 @@ li {
   width: 90%;
   margin: auto;
   line-height: 3rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding-top: 80px;
 }
 
